@@ -12,7 +12,7 @@ public class Car {
 	
 
 	public Car(long id, String name, int year, String color, Date date) {
-		super();
+		//super();
 		this.id = id;
 		this.name = name;
 		this.year = year;
@@ -22,7 +22,7 @@ public class Car {
 	
 	//@Override
 	public String toString() {
-		return "Car [id=" + id + ", name=" + name + ", year=" + year + ", color=" + color + ", date=" + date + "]";
+		return "Car [id=" + id + ", name= " + name + ", year= " + year + ", color= " + color + ", date= " + date + "]";
 	}
 	
 }
