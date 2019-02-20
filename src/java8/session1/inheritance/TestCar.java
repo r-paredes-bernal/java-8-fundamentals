@@ -1,5 +1,7 @@
 package java8.session1.inheritance;
 
+import java.util.Date;
+
 /* Open the image file img/Java8-Session1-Class Diagram.jpg and create 
  * the objects and interfaces required.
  * 
@@ -14,7 +16,9 @@ package java8.session1.inheritance;
 public class TestCar {
 
 	public static void main(String[] args) {
-
+		Date fecha = new Date();
+		Car car1 = new Car(1L,"carro 1",2019,"negro",fecha);
+		System.out.print(car1);
 	}
 
 }
