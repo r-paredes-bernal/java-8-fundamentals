@@ -31,7 +31,7 @@ public class TestCar {
 		System.out.println("\n-----------------------------------------------\n");
 		
 		LocalDate date2=LocalDate.of(2018, Month.JULY, 25);
-		Car c2=new GasolineCar(200, "Toyota",2012 , "blanco", date2, 20, 100);
+		Car c2=new GasolineCar(200, "BMW",2012 , "blanco", date2, 20, 100);
 		System.out.println("Precio: "+c2.calculatePrice());
 		System.out.println("Costo: "+c2.calculateCost());
 		System.out.print(c2.toString());
