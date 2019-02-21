@@ -1,5 +1,6 @@
 package java8.session1.inheritance;
 
+import java8.session1.inheritance.Car;;
 /* Open the image file img/Java8-Session1-Class Diagram.jpg and create 
  * the objects and interfaces required.
  * 
@@ -14,7 +15,9 @@ package java8.session1.inheritance;
 public class TestCar {
 
 	public static void main(String[] args) {
-
+	Car  car = new Car();
+	
+			
 	}
 
 }
