@@ -13,6 +13,12 @@ public class ElectricCar extends Car {
 		super(id, name, year, color, date);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public ElectricCar(Long id, String name, Integer year, String color, Date date,Integer batteries,Integer power) {
+		super(id, name, year, color, date);
+		this.batteries=batteries;
+		this.power=power;
+	}
 
 	/*variable for batteries*/
 	public Integer batteries;
