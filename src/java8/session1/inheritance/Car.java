@@ -2,29 +2,34 @@ package java8.session1.inheritance;
 
 import java.util.Date;
 
-public class Car implements Vehicle, FinancialCalculations {
+public class Car extends Model implements Vehicle, FinancialCalculations {
 
-	private Long id;
+	private Long id_car;
 	public String nombre;
 	public int year;
 	public String color;
 	public Date date;
-
-	public Car(Long id, String nombre, int year, String color, Date date) {
+	private Engine engine = new Engine();
+	
+	public Car(Long id_car, String nombre, int year, String color, Date date) {
 		super();
-		this.id = id;
+		this.id_car = id_car;
 		this.nombre = nombre;
 		this.year = year;
 		this.color = color;
 		this.date = date;
 	}
 
-	public Long getId() {
-		return id;
+	public void addModel (Model model) {
+		System.out.print("Nuevo model");
+	}
+	
+	public Long getId_Car() {
+		return id_car;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setId_Car(Long id_car) {
+		this.id_car = id_car;
 	}
 
 	public String getNombre() {
@@ -59,9 +64,11 @@ public class Car implements Vehicle, FinancialCalculations {
 		this.date = date;
 	}
 
+
 	@Override
 	public String toString() {
-		return "Car [id=" + id + ", nombre=" + nombre + ", year=" + year + ", color=" + color + ", date=" + date + "]";
+		return "Car [id_car=" + id_car + ", nombre=" + nombre + ", year=" + year + ", color=" + color + ", date=" + date
+				+ ", engine=" + engine + "]";
 	}
 
 	@Override
@@ -84,4 +91,13 @@ public class Car implements Vehicle, FinancialCalculations {
 		return cost;
 	}
 
+	public Engine getEngine() {
+		return engine;
+	}
+
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+	}	
+
+	
 }
