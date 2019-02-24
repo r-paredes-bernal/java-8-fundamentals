@@ -1,4 +1,4 @@
-package Java8.Session1.Inheritance;
+package java8.session1.inheritance;
 
 import java.util.Date;
 

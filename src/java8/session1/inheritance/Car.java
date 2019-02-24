@@ -1,4 +1,4 @@
-package Java8.Session1.Inheritance;
+package java8.session1.inheritance;
 
 import java.util.Date;
 
@@ -19,6 +19,7 @@ public class Car implements Vehicle, FinancialCalculation{
 	public int year;
 	public String color;
 	public Date date;
+	private Engine engine;
 	
 	//sobreescribe el metodo toString() de la clase Object
 	public String toString(){
@@ -47,5 +48,9 @@ public class Car implements Vehicle, FinancialCalculation{
 	public double calculataCost() {
 		// TODO Auto-generated method stub
 		return cost;
+	}
+	
+	public void addModel(Model model){
+		System.out.println(model.getDescription());
 	}
 }
