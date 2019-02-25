@@ -9,6 +9,7 @@ public class Car {
 	public int year;
 	public String color;
 	public Date date;
+	private Engine engine;
 	
 
 	public Car(long id, String name, int year, String color, Date date) {
@@ -20,9 +21,15 @@ public class Car {
 		this.date = date;
 	}
 	
-	//@Override
+	
+	public void addModel(Model model) {
+		
+	}
+	
 	public String toString() {
 		return "Car [id=" + id + ", name= " + name + ", year= " + year + ", color= " + color + ", date= " + date + "]";
 	}
+	
+	
 	
 }
