@@ -4,17 +4,20 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Car {
+import java8.session1.inheritance.interfaces.FinancialCalculations;
+import java8.session1.inheritance.interfaces.Vehicle;
+
+public class Car implements Vehicle, FinancialCalculations{
 
 	private Long id;
 	public String name;
 	public Integer year;
 	public String color;
 	public Date date;
+	private Engine engine;
 	
-	  SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-
-	    String dateString = format.format( new Date()   );
+	public void addModel (Model model) {
+	}
 
 	
     public Car(Long id, String name, Integer year, String color, Date date){
@@ -35,5 +38,29 @@ public class Car {
                 ", date=" + date +
                 '}';
     }
+
+	@Override
+	public double calculatePrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calculateCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void speedUP(Integer up) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void speedDown(Integer down) {
+		// TODO Auto-generated method stub
+		
+	}
   
 }
