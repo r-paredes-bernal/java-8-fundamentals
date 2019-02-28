@@ -1,8 +1,8 @@
 package java8.session3.visibility;
-// pregunta #9
- class J {
+
+ class A9 {
 	
-	public J() 
+	public A9() 
 	{
 		
 		//public constructor

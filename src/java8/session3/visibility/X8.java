@@ -1,6 +1,6 @@
 package java8.session3.visibility;
 
-class X
+class X8
 {
     protected int i = 1221;
      

@@ -1,13 +1,13 @@
 package java8.session3.visibility;
 
-class A
+class A2
 {
-    private A()
+    private A2()
     {
         //First Constructor
     }
      
-    private A(int i)
+    private A2(int i)
     {
         //Second Constructor
     }

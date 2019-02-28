@@ -1,6 +1,6 @@
 package java8.session3.visibility;
 
-public class N {
+public class A18 {
 	
 	public void methodOfA()
     {
@@ -9,7 +9,7 @@ public class N {
 
 }
 
-class N2 extends N{
+class N2 extends A18{
 	
 	// La visibilidad de methodOfA () se ha reducido al valor 
     //predeterminado al anularlo en la clase B. No se puede 

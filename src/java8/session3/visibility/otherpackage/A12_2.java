@@ -1,10 +1,10 @@
 package java8.session3.visibility.otherpackage;
 
-import java8.session3.visibility.L;
+import java8.session3.visibility.A12;
 //PREGUNTA #12
-public class L2 extends L{
+public class A12_2 extends A12{
 
-	protected L2() {
+	protected A12_2() {
 		super(10);
 		// TODO Auto-generated constructor stub
 	}
