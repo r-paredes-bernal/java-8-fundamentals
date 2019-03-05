@@ -11,7 +11,7 @@ class R
 class S extends R
 {
     @Override
-    void methodOfA()
+	public void methodOfA()
     {
         System.out.println("Class B");
     }

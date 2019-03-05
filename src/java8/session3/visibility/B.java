@@ -1,8 +1,8 @@
 package java8.session3.visibility;
 
-private class B
+public class B
 {
-	private class C
+	class C
 	{
 		//Inner class
 	}
