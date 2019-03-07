@@ -2,6 +2,6 @@ package java8.session5.generics;
 
 public class Apple extends Fruit{
 	Apple() {
-		this.name = "apple";		
+		this.setName("apple");		
 	}
 }
