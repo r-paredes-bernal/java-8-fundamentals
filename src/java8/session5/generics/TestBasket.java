@@ -12,7 +12,8 @@ public class TestBasket {
 		basket.add(pear);
 		basket.add(orange);
 		
-		// basket.add(onion);
+		
+		// try to add a vegetable in a fruit basket
 		
 		basket.print();
 		

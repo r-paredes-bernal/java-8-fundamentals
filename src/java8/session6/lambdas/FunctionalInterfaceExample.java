@@ -19,6 +19,7 @@ public class FunctionalInterfaceExample {
 		// Lambda - Java 8
 		Flying f = () -> { System.out.println("Eagle"); };
 		f.fly();
+		
 	}
 
 }

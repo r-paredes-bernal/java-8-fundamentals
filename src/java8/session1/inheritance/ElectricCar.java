@@ -10,6 +10,7 @@ public class ElectricCar extends Car {
 		this.batteries=batteries;
 		this.power=power;
 	}
+	
 	// se sobreescribe el metodo toString
 	@Override
 	public String toString() {
